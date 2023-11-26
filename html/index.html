@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- 下面那行表達網頁的編碼中文 -->
+        <meta charset="UF-8"></meta>
+        <!-- meta標籤name="description" content= 網站簡介 -->
+        <meta name="description" content="豪豪的網站、裡面有純純"/>
+        <!-- meta標籤name="author" content= 作者是誰 -->
+        <meta name="author" content="豪豪"/>
+        <!-- meta標籤name="keywords" content= 搜尋關鍵字 -->
+        <meta name="keywords" content="豪豪,純純,汪啾"/>
+        <!-- meta標籤name="viewport" content= width=device-width, initial-scale=1.0 任何裝置上等比例縮放 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        
+        <!-- 下面那行表達首頁名稱-->
+        <title>豪豪第一個網頁</title>
+    </head>
+    <body>
+        <!-- 基本標籤h代表字體大小通常為主題 -->
+        <!-- 基本標籤P為內容I斜線B粗體包覆住-->
+        <!-- 基本標籤BR為換行 沒有內容直接斜線/-->
+        <!-- 基本標籤hr為水平線 沒有內容直接斜線/-->
+        <h2>第一篇文章</h2>
+        <P>今天純純一樣<i><b>可愛</b></i></P>
+        <br/>
+        <hr/>
+        <h2>第二篇文章</h2>
+        <P>今天純純一樣<i><b>漂亮</b></i></P>
+
+        <!-- 連結 & 圖片-->
+        <!-- a標籤href=超連結網站-->
+        <a href="http://google.com">google</a>
+        <a href="page2.html">第二頁</a>
+        <a href="dxr/page3.html">第三頁</a>
+        <a href="白白與汪啾.jpg">白白與汪啾</a>
+        <br/>
+        <br/>
+        <hr/>
+        <!-- img標籤src=直接放上圖片或超連結都可-->
+        <img src="白白與汪啾.jpg" height="300" />
+        <!-- video src嵌入影片 controls 開始撥放 height 設定高度-->
+        <video src="汪啾出遊.mp4" controls height="300"></video>
+        <!-- youtube 分享 嵌入影片 複製貼上即可-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/tGB2pbHMOZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        
+        <!-- ul包li當作列表圓點排序-->
+        <!-- ol包li當作列表數字排序 可以增加屬性 type更換不同字體-->
+        <ol type="A">
+            <li>google</li>
+            <li>facebook</li>
+            <li>ig</li>
+            <li>line</li>
+        </ol>
+
+        <!-- table表格 新增width屬性調整寬度 tr行 td內容-->
+        <table width="400" style="color: blue;">
+            <tr>
+                <td>日期</td>
+                <td>數學</td>
+                <td>英文</td>
+            </tr>
+            <tr>
+                <td>2/8</td>
+                <td>100</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>2/11</td>
+                <td>100</td>
+                <td>100</td>
+            </tr>
+        </table>
+
+        <!-- html的容器 div & span 差別在div占比較小 span占一整行-->
+        <!-- html的容器 後面加上屬性 容器內的內容全部都會修改-->
+        <div style="color: red;">
+            <ol type="A">
+                <li>google</li>
+                <li>facebook</li>
+                <li>ig</li>
+                <li>line</li>
+            </ol>
+            <table width="400">
+                <tr>
+                    <td>日期</td>
+                    <td>數學</td>
+                    <td>英文</td>
+                </tr>
+                <tr>
+                    <td>2/8</td>
+                    <td>100</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>2/11</td>
+                    <td>100</td>
+                    <td>100</td>
+                </tr>
+            </table>
+        </div>
+
+        <span style="color: blue;">
+            <ol type="A">
+                <li>google</li>
+                <li>facebook</li>
+                <li>ig</li>
+                <li>line</li>
+            </ol>
+            <table width="400">
+                <tr>
+                    <td>日期</td>
+                    <td>數學</td>
+                    <td>英文</td>
+                </tr>
+                <tr>
+                    <td>2/8</td>
+                    <td>100</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>2/11</td>
+                    <td>100</td>
+                    <td>100</td>
+                </tr>
+            </table>
+        </span>
+
+        <!-- html輸入標籤input type="text"<可見的文字 placeholder提醒-->
+        <!-- html輸入標籤input type="password"<不可見的文字 placeholder提醒-->
+        <!-- html輸入標籤input type="date"<日期還有其他 -->
+        <input type="text" placeholder="請輸入帳號"/>
+        <br/>
+        <br/>
+        <input type="password" placeholder="請輸入密碼"/>
+        <br/>
+        <br/>
+        <input type="date">
+        <br/>
+        <br/>
+        <input type="range">
+        <br/>
+        <br/>
+        <input type="file">
+        <br/>
+        <br/>
+        <input type="checkbox">
+        <br/>
+        <br/>
+        <input type="image">
+        <br/>
+        <br/>
+        <textarea name="" id="" cols="30" rows="10">愛純純</textarea>
+    </body>
+</head>

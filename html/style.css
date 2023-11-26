@@ -1,0 +1,17 @@
+div{
+    width: 100%-4px;
+    height: x400p;
+    border: 2px solid red;
+    padding:  20px;
+    background-color: aqua;
+    color: brown;
+    font-size: 22px;
+    line-height: 1.5;
+}
+div a{
+    text-decoration: none;
+    color: red;
+}
+.a{
+    color: rgb(128, 0, 255);
+}
